@@ -1,0 +1,173 @@
+/**/
+/*######## tags selectors ########*/
+/**/
+body{
+	background-image : url("http://nsa37.casimages.com/img/2016/09/09/160909050157760249.jpg");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+h2{
+	color: white;
+	border-bottom: solid 1px;
+	margin-bottom: 30px;
+	font-family: 'diplomata';
+	font-size: 3.8em;
+}
+p{
+	color: white;
+	line-height: 1.5em;
+	padding: 15px;
+	font-size: 15px;
+}
+footer label{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer ul {
+	padding: 25px;
+}
+blockquote{
+	margin-left: 35px;
+}
+/**/
+/*######## class selectors ########*/
+/**/
+.img-carousel{
+	min-width: 100%;
+	max-height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-product{
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.img-detail{
+	width: 600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.logo{
+	width: 120px;
+	height: auto;
+}
+.section{
+	padding: 10px;
+	background-color: rgba(255,255,255,0.2);
+	border: solid 1px;
+}
+.section img{
+	cursor: pointer;
+}
+.map {
+	width: 100%;
+	height: 450px;
+	padding-top: 20px;
+}
+.navbarClear {
+	background-color: rgba(255,255,255,0.3);
+}
+.navbar{
+	border: none;
+	border-top: none;
+}
+.bp{
+	color: black;
+	margin-top: 17px;
+	font-size: 1.2em;
+	font-family: 'carrois';
+	font-weight: bold;
+	text-shadow:
+		white 1px 1px,
+		white -1px 1px,
+		white -1px -1px,
+		white 1px -1px;
+}
+.paragraphe{
+	margin: 15px;
+	padding-top:40px;
+	min-height:1000px;
+}
+.popup .modal-content{
+	padding:20px;
+}
+.modal-content p{
+	color: black;
+}
+.chrono{
+	margin-top: 30px;
+}
+.chrono-content{
+	margin-top: 20px;
+}
+.left-img{
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.right-img{
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+.histoTab{
+	padding: 30px;
+	background-color: rgba(255,255,255,0.3);
+	border: solid 1px;
+	/*height: 600px;*/
+}
+.footerPanel{
+	padding: 30px;
+	background-color: rgba(255,255,255,0.2);
+	border: solid 1px;
+	margin-top: 50px;
+	height: 400px;
+}
+.footerTab a{
+	font-size: 20px;
+}
+.footerTab > li:last-child{
+    float:right;
+}
+.navFooter{
+	margin:15px;
+}
+.hist{
+	padding: 0px;
+}
+/**/
+/*######## ID selectors ########*/
+/**/
+#findUs .modal-content{
+	width: 450px;
+	height: 400px
+}
+#footer{
+	padding-top:80px;
+	height:1000px;
+}
+#footer img{
+	width: 300px;
+	height: 300px
+}
+#geekerie h1{
+	margin-top: 0px;
+	color: white;
+}
+.navbar-brand{
+	height: 60px !important;
+	background-color: rgba(255,255,255,0.8);
+}
+
